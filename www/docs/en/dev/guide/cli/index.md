@@ -46,6 +46,13 @@ To install the `cordova` command-line tool, follow these steps:
    module will automatically be downloaded by the `npm` utility.
 
    * on OS X and Linux:
+   call 
+       ```bash
+       $ #next command avoids "cb() never called!" failure when running "sudo npm install -g cordova" on Linux
+       $ sudo npm install -g npm
+       ```
+   then
+   
        ```bash
        $ sudo npm install -g cordova
        ```
