@@ -316,6 +316,24 @@ $ cordova platform update android --save
 $ cordova platform update ios --save
 ...etc.
 ```
+## Return of experience
+
+```bash
+#tested on #devuan-linux-gnu amd-64
+#removed : ios needs Apple macOS
+#cordova platform add ios --> 5.0.1
+#removed : android needs openjdk-8, I am using openjdk-7
+#cordova platform add android --> 8.0.0
+#removed : osx needs Apple OS X
+#cordova platform osx --> 5.0.0
+#removed firefoxos platform deprecated
+#cordova plugin platform add firefoxos
+#useless desktop use cannot use phonegap plugins
+#cordova platform add browser --> 6.0.0
+cordova platform ls
+#empty result
+```
+
 
 [DeviceReadyEvent]: ../../cordova/events/events.html#deviceready
 [BackButtonEvent]:  ../../cordova/events/events.html#backbutton
